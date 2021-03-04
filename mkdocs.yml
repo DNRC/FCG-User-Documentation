@@ -1,0 +1,10 @@
+site_name: MT FCG User Documentation
+nav:
+  - Home: index.md
+  - Code Generation: code-generation.md
+  - User Management: user-management.md
+  - Number Management: number-management.md
+plugins:
+  - search
+  - pdf-export:
+      combined: true
