@@ -4,4 +4,26 @@ used to associate DNRC business information and a billable financial code to fir
 
 The application itself can be found at https://fcg.dnrc.mt.gov/
 
+## Building
+
+This repository can be used to generate a PDF file or static website using [MkDocs]. Follow the linked instructions to install the tool.
+To generate a PDF, the [MkDocs PDF Export Plugin] needs to be installed as well.
+
+Run the following in the root directory of the repo to start a development server to see live updates of your changes:
+
+``` sh
+mkdocs serve
+```
+
+The site preview will then be accessible at http://127.0.0.1:8000
+
+To build the static files, run
+``` sh
+mkdocs build
+```
+
+All generated files will be placed into the `site` directory. The generated PDF can be found at `site/pdf/combined.pdf`.
+
 [IRWIN]: https://forestsandrangelands.gov/WFIT/applications/IRWIN/index.shtml
+[MkDocs]: https://www.mkdocs.org/
+[MkDocs PDF Export Plugin]: https://github.com/zhaoterryy/mkdocs-pdf-export-plugin
