@@ -1,6 +1,6 @@
 # FCG User Documentation
 This repository contains the user documentation for the Montana DNRC's Financial Code Generator, which is an application
-used to associate DNRC business information and a billable financial code to fire incidents in the [IRWIN] system.
+used to associate DNRC business information and a billable financial code to incidents in the [IRWIN] system.
 
 The application itself can be found at https://fcg.dnrc.mt.gov/
 
@@ -24,6 +24,15 @@ mkdocs build
 
 All generated files will be placed into the `site` directory. The generated PDF can be found at `site/pdf/combined.pdf`.
 
+## File Format
+
+MkDocs uses the Markdown file format for all of its content files. If you are not familiar with Markdown, the following resources will be helpful:
++ https://www.markdownguide.org/
++ [Basic Markdown syntax]
++ [Extended Markdown syntax]
+
 [IRWIN]: https://forestsandrangelands.gov/WFIT/applications/IRWIN/index.shtml
 [MkDocs]: https://www.mkdocs.org/
 [MkDocs PDF Export Plugin]: https://github.com/zhaoterryy/mkdocs-pdf-export-plugin
+[Basic Markdown syntax]: https://www.markdownguide.org/basic-syntax/
+[Extended Markdown syntax]: https://www.markdownguide.org/extended-syntax/
