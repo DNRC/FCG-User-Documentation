@@ -4,6 +4,7 @@ nav:
   - Code Generation: code-generation.md
   - User Management: user-management.md
   - Number Management: number-management.md
+extra_css: [extra.css]
 plugins:
   - search
   - pdf-export:
