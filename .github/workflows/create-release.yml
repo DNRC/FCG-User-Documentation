@@ -34,6 +34,7 @@ jobs:
         id: create_release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: actions/create-release@v1
         with:
           tag_name: ${{ steps.get_tag_name.outputs.VERSION }}_Linux
           release_name: Release  ${{ steps.get_tag_name.outputs.VERSION }}
