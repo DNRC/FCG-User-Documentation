@@ -1,0 +1,54 @@
+on:
+  push:
+    tags:
+      - "v*" # push events that push tags that look like "v1.0."
+ 
+name: Create Release
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Get tag name
+        id: get_tag_name
+        run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//} 
+      
+      - name: Setup Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+          
+      - name: Install mkdocs
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install mkdocs mkdocs-pdf-export-plugin
+          
+      - name: Build docs
+        run: |
+          python -m mkdocs build
+          
+      - name: Create GitHub release
+        id: create_release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.get_tag_name.outputs.VERSION }}_Linux
+          release_name: Release  ${{ steps.get_tag_name.outputs.VERSION }}
+          body: |
+            This is a release of the FCG user documentation
+          draft: false
+          prerelease: true
+          
+      - name: Upload PDF
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: site/pdf/combined.pdf
+          asset_name: FCG-${{ steps.get_tag_name.outputs.VERSION }}-docs.pdf
+          asset_content_type: application/pdf
