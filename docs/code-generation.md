@@ -57,7 +57,7 @@ contain:
 + __Area__: The DNRC area that is handling the incident.
 + __Unit__: The DNRC unit that is handling the incident.
 + __Business Action__: A specific type of business action that can be
-  associated with an incident.
+  associated with an incident. This field is required.
 + __Additional Agency Information__: This text box should contain
   free-form information about other agencies that may be involved in
   the incident.
