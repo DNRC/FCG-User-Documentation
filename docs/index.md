@@ -10,7 +10,21 @@ some reporting capability.
 ## Viewing Incident Information
 
 All users of the site have access to basic incident information
-without needing to login.
+without needing to login. There are two separate types of financial
+codes: those that are generated during the fire year and may be
+associated with an incident from IRWIN, and codes that are specified
+at the beginning of the fire year.
+
+The default page shows the list of codes generated throughout the fire
+year. Click on an row to view more information about individual
+incidents. A modal will appear that shows additional DNRC specific
+information as well as more information about the associated IRWIN
+incident if one is present. Click on the close button or outside of the
+modal to close it.
+
+The other page shows the preseason admin codes. This can be accessed
+using the `Admin Codes` link on the application header bar. If there
+are no pre-season codes added for the year, no categories will be shown.
 
 ## Requesting elevated permissions
 
