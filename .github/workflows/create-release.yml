@@ -2,7 +2,6 @@ on:
   push:
     tags:
       - "v*" # push events that push tags that look like "v1.0."
-  workflow_dispatch:
     
  
 name: Create Release
