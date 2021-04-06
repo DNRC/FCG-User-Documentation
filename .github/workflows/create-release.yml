@@ -31,6 +31,14 @@ jobs:
       - name: Build docs
         run: |
           python -m mkdocs build
+      
+      - name: Compress site
+        id: compress_site
+        run: |
+          cd site
+          FILE_NAME=FCG-${{ steps.get_tag_name.outputs.VERSION }}-docs.tar.xz
+          tar -vcaf $FILE_NAME *
+          echo ::set-output name=TAR_FILE::$FILE_NAME
           
       - name: Create GitHub release
         id: create_release
@@ -55,3 +63,22 @@ jobs:
           asset_path: site/pdf/combined.pdf
           asset_name: FCG-${{ steps.get_tag_name.outputs.VERSION }}-docs.pdf
           asset_content_type: application/pdf
+      - name: Upload zip
+        id: upload-zip-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: site/${{ compress_site.outputs.TAR_FILE }}
+          asset_name: ${{ compress_site.outputs.TAR_FILE }}
+      
+        
+        
+        
+        
+        
+        
+        
+        
+    
