@@ -70,7 +70,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: site/${{ compress_site.outputs.TAR_FILE }}
+          asset_path: site/${{ steps.compress_site.outputs.TAR_FILE }}
           asset_name: ${{ compress_site.outputs.TAR_FILE }}
       
         
