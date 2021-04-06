@@ -50,7 +50,7 @@ jobs:
           body: |
             This is a release of the FCG user documentation
           draft: false
-          prerelease: true
+          prerelease: false
           
       - name: Upload PDF
         id: upload-release-asset
