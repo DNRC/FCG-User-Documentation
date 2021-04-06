@@ -71,7 +71,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: site/${{ steps.compress_site.outputs.TAR_FILE }}
-          asset_name: ${{ compress_site.outputs.TAR_FILE }}
+          asset_name: ${{ steps.compress_site.outputs.TAR_FILE }}
       
         
         
