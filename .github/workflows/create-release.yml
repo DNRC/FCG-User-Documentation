@@ -45,7 +45,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         uses: actions/create-release@v1
         with:
-          tag_name: ${{ steps.get_tag_name.outputs.VERSION }}_Linux
+          tag_name: ${{ steps.get_tag_name.outputs.VERSION }}
           release_name: Release  ${{ steps.get_tag_name.outputs.VERSION }}
           body: |
             This is a release of the FCG user documentation
