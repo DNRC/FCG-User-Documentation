@@ -50,21 +50,61 @@ DNRC-specific information is entered using the `Agency Information` section
 of the form. Here's a brief explanation of what each field should
 contain:
 
-+ __Short Description__: A short title for what this financial code
-  will be used for. This field is required to generate a financial  code.
-+ __Activity Role__: The activity role type that will be associated
-  with the incident. This field is required to generate a financial code.
-  	Fire Response and Support Orgs
-Fire response and support orgs are used to segregate costs related to the suppression of wildland fire incidents.  A sequential SABHRS org will be assigned in the 90yxxx number series. Examples of suppression costs are as follows:  Mutual Aid General Support; Direct Protection, Federal Support and County Assist responses; NRCC out of area incident response; NWC mobilizations; Severity and Staffed Station responses. All suppression incidents will have unique IRWIN ID’s and will pull information from INFORM.
-  	Fire Administrative Orgs
-Fire administrative orgs are used to segregate specific costs incurred by the Fire Protection Bureau and Forestry Division Office related to non-suppression activities.  A sequential SABHRS org will be assigned in the 71yxxx number series. Examples of non-suppression costs are as follows: GACC wide cost shares for IMT Staging costs, NRCC Expanded Support and GMAC Support; FDO costs incurred in FEMA Fire Management Assistance Grant administration; FPB General Support to the NR GACC.  The administrative activities under this role may or may not have incident information in IRWIN that will be pulled from INFORM.
-  	All Hazard Orgs
-All hazard orgs are used to segregate costs related to All Hazard incidents under DES tasking, search and rescue requests and natural disaster FEMA missions. All hazard mobilizations and activities wildland fire related. The Northern Rockies Coordination Center with approval from the Fire Protection Bureau Deputy Chief of Fire Operations, will assign orgs in the 40yxxx number series.  All Risk incidents will have unique IRWIN ID’s and will pull information from INFORM.
+Short Description
+: A short title for what this financial code will be used for. This
+  field is required to generate a financial  code.
 
-+ __Area__: The DNRC area that is handling the incident.
-+ __Unit__: The DNRC unit that is handling the incident.
-+ __Business Action__: A specific type of business action that can be
-  associated with an incident.
+Activity Role
+: The activity role type that will be associated with the
+  incident. This field is required to generate a financial code.
 
-+ __Remarks__: This text box should contain any general remarks to be
-  associated with the IRWIN incident.
+  + __Fire Response and Support Orgs__: Fire response and support orgs
+    are used to segregate costs related to the suppression of wildland
+    fire incidents.  A sequential SABHRS org will be assigned in the
+    90yxxx number series. All suppression incidents will have unique
+    IRWIN ID’s and will pull information from INFORM.
+    Examples:
+
+    + Mutual Aid General Support
+    + Direct Protection
+    + Federal Support and County Assist responses
+    + NRCC out of area incident response
+    + NWC mobilizations
+    + Severity and Staffed Station responses
+
+  + __Fire Administrative Orgs__: Fire administrative orgs are used to
+    segregate specific costs incurred by the Fire Protection Bureau and
+    Forestry Division Office related to non-suppression activities.  A
+    sequential SABHRS org will be assigned in the 71yxxx number
+    series.  The administrative activities under this role may or may
+    not have incident information in IRWIN that will be pulled from
+    INFORM.
+    Examples:
+    + GACC wide cost shares for IMT Staging costs
+    + NRCC Expanded Support and GMAC Support
+    + FDO costs incurred in FEMA Fire Management Assistance Grant
+      administration
+    + FPB General Support to the NR GACC
+
+  + __All Hazard Orgs__:All hazard orgs are used to segregate costs
+    related to All Hazard incidents under DES tasking, search and
+    rescue requests and natural disaster FEMA missions. All hazard
+    mobilizations and activities wildland fire related. The Northern
+    Rockies Coordination Center with approval from the Fire Protection
+    Bureau Deputy Chief of Fire Operations, will assign orgs in the
+    40yxxx number series.  All Risk incidents will have unique IRWIN
+    ID’s and will pull information from INFORM.
+
+Area
+: The DNRC area that is handling the incident.
+
+Unit
+: The DNRC unit that is handling the incident.
+
+Business Action
+: A specific type of business action that can be associated with an
+  incident. This feild is required.
+
+Remarks
+: This text box should contain any general remarks to be associated
+  with the IRWIN incident.

@@ -25,3 +25,11 @@ a:hover {
   /* color: rgba(255,255,255,0.8); */
   color: rgba(255,255,255,0.8);
 }
+
+li p {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: .5em 0;
+}

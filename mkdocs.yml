@@ -9,3 +9,5 @@ plugins:
   - search
   - pdf-export:
       combined: true
+markdown_extensions:
+  - def_list
