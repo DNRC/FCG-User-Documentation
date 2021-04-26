@@ -44,6 +44,15 @@ incident needs to be changed, press the `Choose Another Incident`
 button to clear out the current selection and make the search controls
 appear again.
 
+#### Assigning Multiple Financial Codes to one IRWIN incident
+
+If the selected IRWIN incident already has one or more financial codes
+assigned to it, a message will be displayed listing the assigned codes
+and some basic information about them. If current user doesn't have
+the correct permissions to assign an additional financial code to an
+incident, the message will be red, and the user will be unable to
+submit the form.
+
 ### Entering Agency Information
 
 DNRC-specific information is entered using the `Agency Information` section
