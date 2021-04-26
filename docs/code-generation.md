@@ -103,7 +103,7 @@ Unit
 
 Business Action
 : A specific type of business action that can be associated with an
-  incident. This feild is required.
+  incident. This field is required.
 
 Remarks
 : This text box should contain any general remarks to be associated
