@@ -16,7 +16,7 @@ associated with an incident from IRWIN, and codes that are specified
 at the beginning of the fire year.
 
 The default page shows the list of codes generated throughout the fire
-year. Click on an row to view more information about individual
+year. Click on a row to view more information about individual
 incidents. A modal will appear that shows additional DNRC specific
 information as well as more information about the associated IRWIN
 incident if one is present. Click on the close button or outside of the
