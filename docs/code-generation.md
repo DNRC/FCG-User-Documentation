@@ -50,8 +50,10 @@ If the selected IRWIN incident already has one or more financial codes
 assigned to it, a message will be displayed listing the assigned codes
 and some basic information about them. If current user doesn't have
 the correct permissions to assign an additional financial code to an
-incident, the message will be red, and the user will be unable to
-submit the form.
+incident, the message will have a red background, and the user will be unable to
+submit the form. To help color-blind users distinguish between
+warnings and errors, the icons displayed next to the message will be a
+triangle if it is a warning and a circle if it is an error.
 
 ### Entering Agency Information
 
@@ -59,9 +61,11 @@ DNRC-specific information is entered using the `Agency Information` section
 of the form. Here's a brief explanation of what each field should
 contain:
 
-Short Description
+Name
 : A short title for what this financial code will be used for. This
-  field is required to generate a financial  code.
+  field will auto-fill and become uneditable if an IRWIN incident is
+  selected. For administrative codes that don't have an IRWIN
+  incident, this field must be manually filled out.
 
 Activity Role
 : The activity role type that will be associated with the
@@ -117,3 +121,12 @@ Business Action
 Remarks
 : This text box should contain any general remarks to be associated
   with the IRWIN incident.
+
+### Submitting the form
+
+Once all of the required information has been entered, the submit
+button at the bottom of the form will become active and clickable. If
+there are any errors when creating the form, they will be displayed in
+a box above the submit button. Otherwise, the code edit dialog will
+open showing the information for the incident that was just created,
+including the financial code that was generated.
