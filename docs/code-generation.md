@@ -116,7 +116,22 @@ Unit
 
 Business Action
 : A specific type of business action that can be associated with an
-  incident. This field is required.
+  incident. This field is required. The business actions available are:
+
+  + __Direct Protection__: Incidents where DNRC is the protecting agency.
+  + __Mutual Aid__: Aid provided to another protecting unit or
+	jurisdiction where DNRC does not intend to recover expenses
+	incurred.
+  + __County Assist__: A formal request to DNRC for fire suppression
+    assistance from the Board of County Commissioners within a
+    Cooperating County.
+
+  + __Other Agency__: Support/Assistance provided to another protecting
+    unit or jurisdiction (in-state or out of state) where DNRC intends
+    to recover expenses incurred.
+
+  + __Severity__: Preposition incidents established to support DNRC
+    staffing and wildfire preparedness efforts.
 
 Remarks
 : This text box should contain any general remarks to be associated
