@@ -65,7 +65,7 @@ Name
 : A short title for what this financial code will be used for. This
   field will auto-fill and become uneditable if an IRWIN incident is
   selected. For administrative codes that don't have an IRWIN
-  incident, this field must be manually filled out.
+  incident, this field must be manually filled in.
 
 Activity Role
 : The activity role type that will be associated with the
@@ -99,10 +99,10 @@ Activity Role
       administration
     + FPB General Support to the NR GACC
 
-  + __All Hazard Orgs__:All hazard orgs are used to segregate costs
+  + __All Hazard Orgs__: All Hazard orgs are used to segregate costs
     related to All Hazard incidents under DES tasking, search and
     rescue requests and natural disaster FEMA missions. All hazard
-    mobilizations and activities wildland fire related. The Northern
+    mobilizations and activities are wildland fire related. The Northern
     Rockies Coordination Center with approval from the Fire Protection
     Bureau Deputy Chief of Fire Operations, will assign orgs in the
     40yxxx number series.  All Risk incidents will have unique IRWIN
