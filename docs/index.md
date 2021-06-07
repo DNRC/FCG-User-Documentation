@@ -22,9 +22,13 @@ information as well as more information about the associated IRWIN
 incident if one is present. Click on the close button or outside of the
 modal to close it.
 
-The financial code list can be filtered by using the text input field,
-the area and unit dropdowns, as well as the voided and Montana Only
-checkboxes.
+The financial code list can be filtered by using a generic search
+field, the area and unit dropdowns, as well as the voided and Montana
+Only checkboxes. The generic searh field filters by all of the
+incident properties visible on the code list page. If the
+area and unit dropdowns don't contain the item that you are looking
+for, it means that it isn't present in any codes for the fire year
+selected.
 
 The other page shows the preseason admin codes. This can be accessed
 using the `Admin Codes` link on the application header bar. If there
