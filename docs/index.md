@@ -34,7 +34,7 @@ The other page shows the preseason admin codes. This can be accessed
 using the `Admin Codes` link on the application header bar. If there
 are no pre-season codes added for the year, no categories will be shown.
 
-## Requesting elevated permissions
+## Requesting Elevated Permissions
 
 In order to view full incident information and create new
 finacial codes, you must login to the application and submit a request

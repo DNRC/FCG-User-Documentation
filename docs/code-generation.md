@@ -44,7 +44,7 @@ incident needs to be changed, press the `Choose Another Incident`
 button to clear out the current selection and make the search controls
 appear again.
 
-#### Assigning Multiple Financial Codes to one IRWIN incident
+#### Assigning Multiple Financial Codes to one IRWIN Incident
 
 If the selected IRWIN incident already has one or more financial codes
 assigned to it, a message will be displayed listing the assigned codes
@@ -137,7 +137,7 @@ Remarks
 : This text box should contain any general remarks to be associated
   with the IRWIN incident.
 
-### Submitting the form
+### Submitting the Form
 
 Once all of the required information has been entered, the submit
 button at the bottom of the form will become active and clickable. If
