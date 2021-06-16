@@ -179,7 +179,7 @@ instead of the Void Code button in the dialog.
 ### Viewing Financial Code Modification History
 
 If a user has the Primary application role or higher, they can view
-if a finanical code has changed over time, and what edits were
+if a financial code has changed over time, and what edits were
 made. To view the changes, click on the `Modification History` text
 that is at the bottom of the code edit dialog to view a summary of
 all of the changes made to the financial code. If a more detailed

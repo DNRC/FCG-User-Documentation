@@ -1,6 +1,6 @@
 # Financial Code Generator User Documentation
 
-The Finacial Code Generator is a web application used for generating
+The Financial Code Generator is a web application used for generating
 state financial codes for tracking state expenses related to wildfire
 incidents that the state has a financial interest in. The application
 also displays information about each fire incident from the Integrated
@@ -24,7 +24,7 @@ modal to close it.
 
 The financial code list can be filtered by using a generic search
 field, the area and unit dropdowns, as well as the voided and Montana
-Only checkboxes. The generic searh field filters by all of the
+Only checkboxes. The generic search field filters by all of the
 incident properties visible on the code list page. If the
 area and unit dropdowns don't contain the item that you are looking
 for, it means that it isn't present in any codes for the fire year
@@ -37,7 +37,7 @@ are no pre-season codes added for the year, no categories will be shown.
 ## Requesting Elevated Permissions
 
 In order to view full incident information and create new
-finacial codes, you must login to the application and submit a request
+financial codes, you must login to the application and submit a request
 to have access.
 
 1. Login to the application using the login button to the right in the
