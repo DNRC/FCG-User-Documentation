@@ -145,3 +145,48 @@ there are any errors when creating the form, they will be displayed in
 a box above the submit button. Otherwise, the code edit dialog will
 open showing the information for the incident that was just created,
 including the financial code that was generated.
+
+## Editing Existing Financial Codes
+
+After a financial code has been created, all fields except the code's
+activity role can be updated to reflect the latest changes in the
+fire. To do so, open the code edit dialog by clicking on the incident
+on the code list page, make the required changes, then press the
+Submit button to save. On successful save, the dialog will close;
+otherwise, an error message will appear detailing why the code could
+not be updated.
+
+Note that at this time, the code list page doesn't immediately reflect
+the changes that were made: refresh the browser page to see the updates.
+
+### Voiding Financial Codes
+
+If a code was created that should not be used for some reason, the
+code can be voided and removed from the default code list view. Once
+voided, the code remains in the system and can still be viewed or
+reactivated. Only users with the Manager or Owner application roles
+can void a financial code.
+
+To void a code, open the code edit dialog for the code, type in a
+reason why the code has being voided, the press the Void Code
+button. In order to void a code, the remarks field must be updated. If
+there is a problem voiding the code, an error message will appear
+detailing why the code could not be voided.
+
+To re-activate a code, use the Activate Code button that appears
+instead of the Void Code button in the dialog.
+
+### Viewing Financial Code Modification History
+
+If a user has the Primary application role or higher, they can view
+if a finanical code has changed over time, and what edits were
+made. To view the changes, click on the `Modification History` text
+that is at the bottom of the code edit dialog to view a summary of
+all of the changes made to the financial code. If a more detailed
+report is needed, contact the developers to get a full report.
+
+
+<!--  LocalWords:  Orgs orgs wildland SABHRS NRCC NWC yxxx GACC IMT
+ -->
+<!--  LocalWords:  GMAC FDO FEMA FPB DES
+ -->
