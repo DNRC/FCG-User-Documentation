@@ -12,7 +12,7 @@ navigated to by using the `Configuration` link in the navigation header.
 The page is separated into tabs, with one tab for each of the possible
 configurable entities. When the page is first opened, it shows the
 current year's configuration if it has been approved, with the option
-to view previous years' configurations. To actually edit approve the
+to view previous years' configurations. To actually edit or approve the
 next year's configuration, a link on the upper right corner of the
 page will lead you to the configuration page.
 
