@@ -36,9 +36,8 @@ are no pre-season codes added for the year, no categories will be shown.
 
 ## Requesting Elevated Permissions
 
-In order to view full incident information and create new
-financial codes, you must login to the application and submit a request
-to have access.
+In order to create new financial codes, you must login to the
+application and submit a request to have access.
 
 1. Login to the application using the login button to the right in the
    header. You will be directed to okta.loginmt.com where you can log
@@ -53,4 +52,13 @@ to have access.
    information about your pending request.
 
 Once you have submitted a request, one of the application
-administrators will either approve or deny your request.
+administrators will either approve or deny your request. You will
+recieve an email if the request is approved.
+
+## Email notifications
+
+Email notifications are sent out for important application events like
+user role changes. If you don't want to recieve these emails, you can
+disable them by going to user setting section of the
+[user profile page](/user-profile) and choose which types of emails
+you want to recieve.

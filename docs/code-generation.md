@@ -156,9 +156,6 @@ Submit button to save. On successful save, the dialog will close;
 otherwise, an error message will appear detailing why the code could
 not be updated.
 
-Note that at this time, the code list page doesn't immediately reflect
-the changes that were made: refresh the browser page to see the updates.
-
 ### Voiding Financial Codes
 
 If a code was created that should not be used for some reason, the
@@ -168,7 +165,7 @@ reactivated. Only users with the Manager or Owner application roles
 can void a financial code.
 
 To void a code, open the code edit dialog for the code, type in a
-reason why the code has being voided, the press the Void Code
+reason why the code has being voided, then press the Void Code
 button. In order to void a code, the remarks field must be updated. If
 there is a problem voiding the code, an error message will appear
 detailing why the code could not be voided.
@@ -186,7 +183,5 @@ all of the changes made to the financial code. If a more detailed
 report is needed, contact the developers to get a full report.
 
 
-<!--  LocalWords:  Orgs orgs wildland SABHRS NRCC NWC yxxx GACC IMT
- -->
-<!--  LocalWords:  GMAC FDO FEMA FPB DES
+<!--  LocalWords:  Orgs orgs wildland SABHRS NRCC NWC GACC IMT GMAC FDO FEMA FPB DES
  -->
